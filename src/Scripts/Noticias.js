@@ -1,41 +1,45 @@
-import img1 from '../assets/ImagenesNews/orca.jpg'
 
-const noticiasFaunaMarina = [
+import imgTiburon from '../assets/ImagenesNews/longimanus.jpg'
+import imgOrca from '../assets/ImagenesNews/orca.jpg'
+import imgCoral from '../assets/ImagenesNews/coral.jpg'
+import imgDelfin from '../assets/ImagenesNews/delfin.jpg'
+
+export const noticiasFaunaMarina = [
   {
     id: 1,
-    titulo: "Investigadores descubren nueva especie de tiburón en el océano Índico",
-    resumen: "Un equipo de científicos ha identificado una nueva especie de tiburón en aguas del océano Índico. El tiburón, bautizado como 'Carcharhinus oceanicus', presenta características únicas en su morfología y comportamiento.",
-    fecha: "2024-04-16",
-    fuente: "Journal of Marine Biology",
-    enlace: "https://example.com/noticia1",
-    imagen:   URL(img1)
+    title: "Investigadores descubren nueva especie de tiburón en el océano Índico",
+    summary: "Un equipo de científicos ha identificado una nueva especie de tiburón en aguas del océano Índico. El tiburón, bautizado como 'Carcharhinus oceanicus', presenta características únicas en su morfología y comportamiento.",
+    date: "2024-04-16",
+    source: "Journal of Marine Biology",
+    link: "https://www.ngenespanol.com/animales/descubren-una-nueva-especie-de-tiburon-en-las-aguas-profundas-de-australia/",
+    image: imgTiburon
   },
   {
     id: 2,
-    titulo: "Orca avistada en aguas inusuales cerca de la Antártida",
-    resumen: "Una orca ha sido avistada en aguas inusuales cerca de la Antártida, sorprendiendo a los investigadores que estudian la migración de estas majestuosas criaturas. Este avistamiento podría indicar cambios en los patrones de alimentación o migración de las orcas.",
-    fecha: "2024-04-15",
-    fuente: "Antarctic Marine Wildlife Research Institute",
-    enlace: "https://example.com/noticia2",
-    imagen:  URL(img1)
+    title: "Orca avistada en aguas inusuales cerca de la Antártida",
+    summary: "Una orca ha sido avistada en aguas inusuales cerca de la Antártida, sorprendiendo a los investigadores que estudian la migración de estas majestuosas criaturas. Este avistamiento podría indicar cambios en los patrones de alimentación o migración de las orcas.",
+    date: "2024-04-15",
+    source: "Antarctic Marine Wildlife Research Institute",
+    link: "https://www.lavanguardia.com/natural/20180124/44253904493/orcas-antartida-ataque-grupo-coordinado.html",
+    image:   imgOrca
   },
   {
     id: 3,
-    titulo: "Descubierta nueva especie de coral en el arrecife de la Gran Barrera",
-    resumen: "Una expedición científica ha descubierto una nueva especie de coral en el arrecife de la Gran Barrera, ampliando la diversidad biológica de este ecosistema único. El coral, denominado 'Acropora barrerensis', presenta colores vibrantes y estructuras morfológicas distintivas.",
-    fecha: "2024-04-14",
-    fuente: "Marine Ecology Progress Series",
-    enlace: "https://example.com/noticia3",
-    imagen:  URL(img1)
+    title: "Descubierta nueva especie de coral en el arrecife de la Gran Barrera",
+    summary: "Una expedición científica ha descubierto una nueva especie de coral en el arrecife de la Gran Barrera, ampliando la diversidad biológica de este ecosistema único. El coral, denominado 'Acropora barrerensis', presenta colores vibrantes y estructuras morfológicas distintivas.",
+    date: "2024-04-14",
+    source: "Marine Ecology Progress Series",
+    link: "https://www.eltiempo.com/mundo/latinoamerica/nuevo-hallazgo-descubren-dos-nuevos-arrecifes-de-coral-en-aguas-frias-y-profundas-820264",
+    image: imgCoral
   },
   {
     id:4,
-    titulo: "Científicos documentan comportamiento inusual de delfines en el Golfo de México",
-    resumen: "Investigadores han documentado un comportamiento inusual de delfines en el Golfo de México, donde se observa una mayor cooperación entre grupos y una frecuencia inusual de saltos acrobáticos. Este fenómeno podría estar relacionado con cambios en la disponibilidad de presas o factores ambientales.",
-    fecha: "2024-04-13",
-    fuente: "Gulf Marine Research Institute",
-    enlace: "https://example.com/noticia4",
-    imagen:  URL(img1)
+    title: "Científicos documentan comportamiento inusual de delfines en el Golfo de México",
+    summary: "Investigadores han documentado un comportamiento inusual de delfines en el Golfo de México, donde se observa una mayor cooperación entre grupos y una frecuencia inusual de saltos acrobáticos. Este fenómeno podría estar relacionado con cambios en la disponibilidad de presas o factores ambientales.",
+    date: "2024-04-13",
+    source: "Gulf Marine Research Institute",
+    link: "https://www.rcnradio.com/estilo-de-vida/medio-ambiente/video-imponente-avistamiento-de-una-manada-de-mas-de-50-delfines",
+    image: imgDelfin
   }
 ];
 
