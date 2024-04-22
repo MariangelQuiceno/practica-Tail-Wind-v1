@@ -18,7 +18,7 @@ export const PrincipalNew = () => {
           <p className='paragraph-aside-new text-sm overflow-hidden line-clamp-3'>
             {firstNews.summary}
           </p>
-          <img src={firstNews.image} alt='Image Not Found 404' className='img-aside-new w-84 h-80 mt-5' />
+          <img src={firstNews.image} alt='Image Not Found 404' className='img-principal-new w-84 h-80 mt-5' />
 
           <div className='TechnicalDesc-principal-new flex-col mt-10'>
             <ul className='list-principal-New'>
