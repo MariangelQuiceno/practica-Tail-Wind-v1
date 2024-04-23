@@ -9,7 +9,7 @@ export const PrincipalNew = () => {
 
   return (
     <div
-      className='principalNews rounded-lg bg-md-blue bg-opacity-85 w-11/12 mr-2 p-10'
+      className='principalNews rounded-lg bg-md-blue bg-opacity-85 w-11/12 mr-2 p-10 '
       style={{ height: '52rem' }}
     >
       {firstNews ? (
@@ -18,7 +18,9 @@ export const PrincipalNew = () => {
           <p className='paragraph-aside-new text-sm overflow-hidden line-clamp-3'>
             {firstNews.summary}
           </p>
-          <img src={firstNews.image} alt='Image Not Found 404' className='img-principal-new w-84 h-80 mt-5' />
+          
+          <img src={firstNews.image} alt='Image Not Found 404' style={{ height: '35rem', width: '60rem' }} 
+          className='img-principal-new mt-5 ml-20'  />
 
           <div className='TechnicalDesc-principal-new flex-col mt-10'>
             <ul className='list-principal-New'>

@@ -3,6 +3,9 @@ import imgTiburon from '../assets/ImagenesNews/longimanus.jpg'
 import imgOrca from '../assets/ImagenesNews/orca.jpg'
 import imgCoral from '../assets/ImagenesNews/coral.jpg'
 import imgDelfin from '../assets/ImagenesNews/delfin.jpg'
+import imgturtle from '../assets/ImagenesNews/turtle.jpg'
+import imgCoral2 from '../assets/ImagenesNews/coral2.jpg'
+
 
 export const noticiasFaunaMarina = [
   {
@@ -40,7 +43,27 @@ export const noticiasFaunaMarina = [
     source: "Gulf Marine Research Institute",
     link: "https://www.rcnradio.com/estilo-de-vida/medio-ambiente/video-imponente-avistamiento-de-una-manada-de-mas-de-50-delfines",
     image: imgDelfin
+  },
+  {
+    "id": 5,
+    "title": "Estudio revela nuevos datos sobre la migración de tortugas marinas en el Atlántico",
+    "summary": "Un nuevo estudio ha revelado datos interesantes sobre las rutas migratorias de las tortugas marinas en el Atlántico. Los investigadores descubrieron que las tortugas están tomando rutas más largas para evitar zonas de alta actividad humana, lo que podría tener implicaciones para su conservación.",
+    "date": "2024-04-15",
+    "source": "Atlantic Marine Conservation Group",
+    "link": "https://www.oceannews.com/sea-life/study-reveals-migration-patterns-of-sea-turtles",
+    "image": imgturtle
+  },
+  {
+    "id": 6,
+    "title": "Descubren nuevas especies de coral en el Pacífico Sur",
+    "summary": "Un equipo de biólogos marinos ha descubierto varias nuevas especies de coral en el Pacífico Sur. Estos corales, que tienen colores vibrantes y estructuras únicas, podrían ser fundamentales para comprender mejor la biodiversidad y la salud de los ecosistemas de arrecifes.",
+    "date": "2024-04-20",
+    "source": "Pacific Coral Research Institute",
+    "link": "https://www.marinescience.com/coral-reefs/new-coral-species-in-pacific-south",
+    "image": imgCoral2
   }
+  
+  
 ];
 
 console.log(noticiasFaunaMarina);
